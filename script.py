@@ -11,7 +11,7 @@ class Script(object):
 
 Send me any video file and extract what you want :).
 
-See <i>help</i> for more details.
+See  <i>help</i> for more details ,thanks for TroJanzHEX repo .
 
 © @OMG_info</b>"""
 
