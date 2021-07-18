@@ -14,6 +14,9 @@ from script import Script
 
 @trojanz.on_message(filters.command(["start"]) & filters.private)
 async def start(client, message):
+    forcesub = await ForceSub(bot, Message)
+    if forcesub == 400:
+        return
     await message.reply_text(
         text=Script.START_MSG.format(message.from_user.mention),
         disable_web_page_preview=True,
