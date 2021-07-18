@@ -6,7 +6,7 @@
 from pyrogram import filters
 from pyrogram import Client as trojanz
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from helper.forcesub import ForceSub
+from helpers.forcesub import ForceSub
 
 from config import Config
 from script import Script
