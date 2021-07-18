@@ -14,7 +14,7 @@ from script import Script
 
 @trojanz.on_message(filters.command(["start"]) & filters.private)
 async def start(client, message):
-    forcesub = await ForceSub(bot, Message)
+    forcesub = await ForceSub(bot, m)
     if forcesub == 400:
         return
     await message.reply_text(
